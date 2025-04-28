@@ -19,7 +19,9 @@ const DisplayItems = ({ props }) => {
           );
         })
       ) : (
-        <div className="w-full h-full text-center mt-10 ">No Pokemon Found</div>
+        <div className="w-full h-full md:mx-115  text-center mt-10 ">
+          No Pokemon Found
+        </div>
       )}
     </div>
   );
