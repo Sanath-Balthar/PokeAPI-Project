@@ -1,6 +1,6 @@
 const DisplayItems = ({ props }) => {
   return (
-    <div className=" md:grid md:grid-cols-5 md:gap-20 my-10 md:p-5 rounded-2xl shadow-3xl">
+    <div className=" md:grid md:grid-cols-5 md:gap-20 my-5 md:p-5 rounded-2xl shadow-3xl">
       {props.length !== 0 ? (
         props.map((pokemon, index) => {
           return (
@@ -19,7 +19,7 @@ const DisplayItems = ({ props }) => {
           );
         })
       ) : (
-        <div className="w-full h-full md:mx-115  text-center mt-10 ">
+        <div className="w-full h-full md:mx-153  text-center mt-10 ">
           No Pokemon Found
         </div>
       )}
